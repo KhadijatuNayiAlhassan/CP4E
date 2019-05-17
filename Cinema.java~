@@ -1,0 +1,30 @@
+// siverbird movies, age checker
+
+public class Cinema{
+   int Age;
+   public Cinema(){};
+   public static void main(String[] args){
+     Cinema NewCinema =  New Cinema();
+     Age = 18;
+     if (Age < 18){
+       System.out.println("You are too young for this movie");
+     }
+     else if(Age > 18){
+       System.out.println("You are too oldfor this movie");
+     }
+     else if(Age ==18){
+       System.out.println("You are the right age for this movie");
+         
+     }
+     else{
+       System.out.println("i dont know what you are");
+     }
+   
+   
+   
+   
+   }
+
+
+}
+

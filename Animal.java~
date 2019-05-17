@@ -1,0 +1,15 @@
+public  class Animal{
+  public Animal(String name, double leg){
+  }
+  public getName(){
+    return this.name = name;
+  }
+  public setName(){
+    
+  
+  }
+
+
+
+
+}

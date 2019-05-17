@@ -1,0 +1,28 @@
+public class Person{
+  
+  public static void main(String[]args){
+    
+  }
+  
+  public Person(double height, double age){ }
+  
+  public double getHeight(){
+    return this.height = height;
+  }
+  
+  public double setHeight(height){
+    this.height = height;
+  }
+  
+  public double getAge(){
+    return this.age=age;
+  
+  }
+  
+    public double setAge(age){
+      this.age = age;
+    }
+
+
+
+}

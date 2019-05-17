@@ -1,0 +1,17 @@
+public class CPA6_functions{
+    int n;
+    public CPA6_functions(int n){}
+    
+    public int find_sum(int n){
+        try {
+            int sum_num = 0;
+            String let = Integer.toString(n);
+            for(int i =0; i < let.length; i++){
+                int num = Integer.Parseint(let.charAt(i));
+                sum_num  = sum_num + num;
+            }
+        }catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+}

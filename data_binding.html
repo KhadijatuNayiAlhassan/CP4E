@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting started with Vue.js</title>
+</head>
+<body>
+    <div id="root">
+        <input type="text" name="message" id="message" v-model="message">
+        <p> The value of the input is:{{message}}</p>
+        <p> {{message}} <br> {{name}}<br> {{name1}}</p>
+    </div>
+    <script src="http://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+        var app = new Vue({
+            el:'#root',
+            data:{
+                message:'hello Vue',
+                name:'@nayi',
+                name1:'khadijatu'
+            }
+        });
+    
+    </script>
+    
+</body>
+</html>

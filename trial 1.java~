@@ -1,0 +1,5 @@
+public class HelloWorld{
+  public static void main(Strring[]args){
+    system.out.println('hello world')
+  }
+}

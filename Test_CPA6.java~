@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Test_CPA6{
+    public static void main(String[]args){
+        System.out.println("Please enter a number: ");
+        Scanner ix = new Scanner(System.in);
+        String  n = ix.next();
+        //int n = Integer.ParseInt(n);
+        if(n.length() > 0){
+            int n = Integer.ParseInt(n);
+            CPA6_functions Run = new CPA6_functions(n);
+        } 
+        else{
+            System.out.println("your input is void, pleaseenter a number");
+
+        }
+
+        
+    }
+
+
+
+
+}
